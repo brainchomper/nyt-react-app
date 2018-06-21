@@ -1,8 +1,3 @@
-// @author: Thomas Thompson
-// @github: tomtom28
-// @comment: HW for Week 19 - NY Time Article Search with ReactJS! Whoo!
-
-
 // Require Node Modules
 var express = require('express');
 var bodyParser = require('body-parser');
@@ -33,7 +28,7 @@ if(process.env.NODE_ENV == 'production'){
 }
 else{
   mongoose.connect('mongodb://localhost/nytreact');
-}
+} 
 var db = mongoose.connection;
 
 // Show any Mongoose errors

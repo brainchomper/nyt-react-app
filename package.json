@@ -8,16 +8,12 @@
     "start": "node server.js",
     "bundle": "webpack -d --progress --colors"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/tomtom28/nyt-react.git"
-  },
-  "author": "tomtom28",
+  "author": "Kevin Smith",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/tomtom28/nyt-react/issues"
+    "url": "https://github.com/brainchomper/nyt-react-app/issues"
   },
-  "homepage": "https://github.com/tomtom28/nyt-react#readme",
+  "homepage": "https://github.com/brainchomper/nyt-react-app#readme",
   "dependencies": {
     "axios": "^0.15.3",
     "body-parser": "^1.15.2",

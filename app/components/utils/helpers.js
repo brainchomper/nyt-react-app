@@ -1,10 +1,6 @@
 // Node Dependencies
 var axios = require('axios');
 
-
-
-
-
 // NY Times API Request Function
 var articleQuery = function(topic, beginYear, endYear){
 
